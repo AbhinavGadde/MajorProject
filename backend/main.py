@@ -563,7 +563,7 @@ app = FastAPI(
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production: specify frontend URL
+    allow_origins=["https://major-project-theta-one.vercel.app"],  # In production: specify frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
